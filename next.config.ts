@@ -1,8 +1,9 @@
 import type { NextConfig } from "next";
 
 const isProd = process.env.NODE_ENV === "production";
-// Change this to your repo name if you publish to GitHub Pages.
-const repoName = "project_page_template";
+// Change this to your deployed subpath (e.g., GitHub Pages repo name).
+// Example: if hosted at https://example.com/NextJS-Project-Page, set to "NextJS-Project-Page".
+const repoName = "NextJS-Project-Page";
 
 const nextConfig: NextConfig = {
   output: "export",

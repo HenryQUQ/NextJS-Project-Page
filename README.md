@@ -62,3 +62,9 @@ Host `out/` on GitHub Pages or any static host (ensure paper/video/poster links 
 
 - Fork to your own repo/branch; go to Settings > Pages, set **Build and deployment** source to **GitHub Actions**, and every push auto-deploys.
 - Workflow steps: checkout; detect package manager + caches; setup Node 20; install deps; run `next build` (static export); upload `out/`; `deploy-pages`.
+
+## FAQ
+
+- Images break when deployed under a subpath (e.g., GitHub Pages): set `repoName` in `next.config.ts` to your repo or folder name (no trailing slash), rebuild, and redeploy so `basePath`/`assetPrefix` are correct.
+- Local dev works but Pages is blank/404: confirm Settings > Pages uses **GitHub Actions** as the source and that the latest workflow run succeeded.
+- Deploying at the domain root instead of a subfolder: set `repoName` to an empty string (or remove `basePath`/`assetPrefix`), rebuild, and redeploy.

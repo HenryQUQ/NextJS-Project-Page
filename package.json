@@ -3,10 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "../../Researchs/VisualSplit/project_page_template/node_modules/.bin/next dev --turbopack",
-    "build": "../../Researchs/VisualSplit/project_page_template/node_modules/.bin/next build",
-    "start": "../../Researchs/VisualSplit/project_page_template/node_modules/.bin/next start",
-    "lint": "../../Researchs/VisualSplit/project_page_template/node_modules/.bin/next lint"
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "15.3.2",
