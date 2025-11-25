@@ -1,12 +1,11 @@
 # Academic Project Page Template
 
-**Live demo:** <https://chenyuanqu.com/NextJS-Project-Page>
+### **Live demo:** <https://chenyuanqu.com/NextJS-Project-Page>
 
 Next.js (App Router) + Tailwind v4 template for research project pages. Edit `data/project.ts` and swap assets in `public/` to make it yours.
 
-**Finished examples**
+## Finished examples
 - Visual Split: <https://chenyuanqu.com/VisualSplit/>
-- Add yours here
 
 ## Features
 - Next.js 15 App Router with static export to `out/`
@@ -61,5 +60,5 @@ Host `out/` on GitHub Pages or any static host (ensure paper/video/poster links 
 
 ## GitHub Pages (fork-friendly)
 
-- Fork to your own repo/branch; enable Pages in Settings > Pages and every push auto-deploys.
+- Fork to your own repo/branch; go to Settings > Pages, set **Build and deployment** source to **GitHub Actions**, and every push auto-deploys.
 - Workflow steps: checkout; detect package manager + caches; setup Node 20; install deps; run `next build` (static export); upload `out/`; `deploy-pages`.
