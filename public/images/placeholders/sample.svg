@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" fill="none">
+  <rect width="900" height="600" rx="24" fill="#f1f5f9" stroke="#e2e8f0" stroke-width="2"/>
+  <rect x="150" y="140" width="600" height="320" rx="24" fill="#dbeafe" stroke="#c7d2fe" stroke-width="2" stroke-dasharray="10 12"/>
+  <text x="450" y="300" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#0f172a" text-anchor="middle">Image placeholder</text>
+  <text x="450" y="340" font-family="Arial, sans-serif" font-size="18" fill="#475569" text-anchor="middle">Drop your PNG/JPG/SVG</text>
+</svg>
